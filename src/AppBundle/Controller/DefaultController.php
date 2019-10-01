@@ -18,8 +18,5 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
-    public function mostrarTextoAction(){
-        echo "Texto de prueba";
-        die();
-    }
+    
 }

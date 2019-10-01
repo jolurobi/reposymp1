@@ -22,7 +22,7 @@ class TextoController extends Controller{
      public function indexAction(Request $request)
     {
         // replace this example code with whatever you need
-        return $this->render('AppBundle:texto:index.html.twig', array(
+        return $this->render('texto/index.html.twig', array(
             'texto' => "Envio desde indexAction de TextoController"
         ));
     }
